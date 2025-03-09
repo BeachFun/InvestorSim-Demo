@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Нужны для запуска бэкенда">
+    <Position X="10.314" Y="0.844" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Так как жанр игры представляет из себя пошагавую стратегию, то бэкенд всего лишь будет откликаться на взаимодействия пользователя с UI, а не жить сам по себе">
+    <Position X="9.671" Y="1.848" Height="0.969" Width="3.044" />
+  </Comment>
+  <Class Name="DataManager" Collapsed="true">
+    <Position X="3" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Managers\DataManager.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Managers">
+    <Position X="0.5" Y="2.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAAAAAAAAAwAABAAgAAAAQAAEEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Managers\Managers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Settings" />
+      <Property Name="Player" />
+      <Property Name="Game" />
+      <Property Name="Data" />
+      <Property Name="UI" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="PlayerManager" Collapsed="true">
+    <Position X="3" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AKQAQAAAEAAAAAAQAiECAAAAACAAJAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Managers\PlayerManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="PlayerModel" Collapsed="true">
+    <Position X="5.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAABAAAAAAAAAAAAAACAAQAACAAhAAAAAAgAAAABAI=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\PlayerModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameManager" Collapsed="true">
+    <Position X="3" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAQAAAAAEAAAAAAAAoAABAAAEAAAIAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Managers\GameManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="GameModel" Collapsed="true">
+    <Position X="5.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAQAAAAAAEAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\GameModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SettingsManager" Collapsed="true">
+    <Position X="3" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAEAAEAAAAAAAgBAAAAAAAgAAIAAAAAAAAAACAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Managers\SettingsManager.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_settings" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="SettingsModel" Collapsed="true">
+    <Position X="5.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAQAAAACAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\SettingsModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UIManager" Collapsed="true">
+    <Position X="3" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EIQAghCAgCAAAAkCAAAgUAIgEUGAoSChgAAAIIQAAEQ=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Managers\UIManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="IGameManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\IGameManager.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IGameModel">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\IGameModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ManagerStatus">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Enums\ManagerStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

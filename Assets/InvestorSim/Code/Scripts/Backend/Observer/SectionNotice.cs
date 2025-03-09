@@ -1,0 +1,10 @@
+﻿public static class SectionNotice {
+	public const string SECTION_MAIN_OPENED = "SECTION_MAIN_OPENED";
+	public const string SECTION_MAIN_CLOSED = "SECTION_MAIN_OPENED";
+	public const string SECTION_STOCK_EXCHANGE_OPENED = "SECTION_STOCK_EXCHANGE_OPENED";
+	public const string SECTION_STOCK_EXCHANGE_CLOSED = "SECTION_STOCK_EXCHANGE_CLOSED";
+	public const string SECTION_ASSETS_OPENED = "SECTION_ASSETS_OPENED";
+	public const string SECTION_ASSETS_CLOSED = "SECTION_ASSETS_CLOSED";
+
+	public const string SECTION_ALL_CLOSED = "SECTION_ALL_CLOSED";
+}

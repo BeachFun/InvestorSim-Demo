@@ -1,0 +1,185 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Controllers">
+    <Position X="0.5" Y="3.75" Width="1.5" />
+    <AssociationLine Name="Corporations" Type="CorporationsController">
+      <MemberNameLabel ManuallyPlaced="true">
+        <Position X="-1.16" Y="0.168" />
+      </MemberNameLabel>
+    </AssociationLine>
+    <AssociationLine Name="EventGenerator" Type="EventGenerator" ManuallyRouted="true" FixedFromPoint="true" FixedToPoint="true">
+      <Path>
+        <Point X="2" Y="3.938" />
+        <Point X="2.406" Y="3.938" />
+        <Point X="2.406" Y="3.466" />
+        <Point X="5.875" Y="3.466" />
+        <Point X="5.875" Y="3.191" />
+      </Path>
+    </AssociationLine>
+    <TypeIdentifier>
+      <HashCode>AAGQIAAAAAAQAQkQAAEAAAAAAAAAAAAAAAAgAAAAAEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\Controllers.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Corporations" />
+      <Property Name="StockExchange" />
+      <Property Name="Transactions" />
+      <Property Name="News" />
+      <Property Name="Assets" />
+      <Property Name="Offers" />
+      <Property Name="CurrencyExchange" />
+      <Property Name="EventGenerator" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="CorporationsController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.5" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAQEAAAAEAEAAAAAAAAAAAAAAAABIAAAAkBAIAAAAAI=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\CorporationsController.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AssetController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAQBAQEAAAoBQQAgEJBAAAAAAIJBAAAAAAIABABAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\AssetController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="CurrencyEchangeController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="8.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAIAECAAAAAACgAAAAACAAATIAACAAAAIAABAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\CurrencyEchangeController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="EventGenerator" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="4.75" Y="2.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAgAAAAAAAAAAAAAAIACAAAAAIAAAGEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\EventGenerator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NewsController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="4.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>gAQAACAgEAAIAAAAAgAAAAAAAAIBIAAAEAAAIAAABAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\NewsController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OfferController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="3.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAMAgAAAIAAgAAAAAAAAAQIAAAAAIAIAAAAQA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\OfferController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StockExchangeController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="7.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAQAgAAEkAAgACAAAmQAACAAAAAUIAAAAAIAACABEIA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\StockExchangeController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TransactionController" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="5.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AQQAAAAAEAAAEAAAAhAAAAAAAAAAIAAAAAQAgAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\TransactionController.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Field Name="_model" />
+    </ShowAsAssociation>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OfferModel" Collapsed="true">
+    <Position X="6.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAAQA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\OfferModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="NewsModel" Collapsed="true">
+    <Position X="6.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\NewsModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="TransactionModel" Collapsed="true">
+    <Position X="6.5" Y="5.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\TransactionModel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="AssetsModel" Collapsed="true">
+    <Position X="6.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\AssetsModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CurrencyExchange" Collapsed="true">
+    <Position X="6.5" Y="8.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAABAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\CurrencyExchange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StockExchange" Collapsed="true">
+    <Position X="6.5" Y="7.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAiAIIAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Models\StockExchange.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="IGameController">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Controllers\IGameController.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IGameModel">
+    <Position X="3" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\IGameModel.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="ControllerStatus">
+    <Position X="6.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQAAAAAAAAAAAAQAAAAIAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Enums\ControllerStatus.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

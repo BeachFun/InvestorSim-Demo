@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Corporation">
+    <Position X="6" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAgAAAAAAAAAAAAAgAAAAAAAgAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Corporation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company">
+    <Position X="3.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAASAAADQCAAAIAACACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Assets\Company.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Organization">
+    <Position X="3.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAgAAAAAgBAMAQAAAIBAAgQAQAgAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Organization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="State">
+    <Position X="1.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="IIssuer">
+    <Position X="0.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\IIssuer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="INameInfo">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\INameInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,139 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Shares">
+    <Position X="5.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EBAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAQAABAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Shares.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Bond">
+    <Position X="7.75" Y="8.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Bond.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Stock">
+    <Position X="6.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEBAAAAASAgAJASAEAAgAQACIAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Stock.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Organization">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAABAAAQAAAIBAAgQAQAgAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Organization.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Company">
+    <Position X="5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAAABQCAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Company.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="State">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\State.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="PreciousMetals" BaseTypeListCollapsed="true">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAgABACAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\PreciousMetals.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="RealEstate" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAgABACAAAAAAQACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\RealEstate.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Currency">
+    <Position X="12" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAASAgABACAAAAAAQAAAAAAAAAAAAQAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Currency.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="Corporation">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAgAAAAAAQgAAAAAgAAAAIAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\GameObjects\Corporation.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="IAsset">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAABACAAAAAAAACAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\IAsset.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="IIssuer">
+    <Position X="2.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\IIssuer.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="INameInfo">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Interfaces\INameInfo.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="BondType" Collapsed="true">
+    <Position X="0.5" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Enums\BondType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="ShareType" Collapsed="true">
+    <Position X="2.25" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Enums\ShareType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="CompanyType" Collapsed="true">
+    <Position X="2.25" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAAAAAAAAAGAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Enums\CompanyType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="Country" Collapsed="true">
+    <Position X="4" Y="9.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Enums\Country.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="IssuerType" Collapsed="true">
+    <Position X="0.5" Y="10.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAEAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAABAAQABA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Backend\Enums\IssuerType.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

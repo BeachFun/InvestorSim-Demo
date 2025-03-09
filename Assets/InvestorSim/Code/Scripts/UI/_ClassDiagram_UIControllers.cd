@@ -1,0 +1,76 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="UIManager">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAghAAgAAAAAACAAAgAAABMACAIBBBAAAAIAAAAEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\Managers\UIManager.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UI_StockExchangeSection">
+    <Position X="3.25" Y="5.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAKAAAAAAAACEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\Sections\UI_StockExchangeSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_TabButton">
+    <Position X="13.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\UI_TabButton.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="UI_TabGroup">
+    <Position X="11.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAgAAAAAAACAEAAAAAAoAAABAAGAAAAAAABAAAAAAQ=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\UI_TabGroup.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_MainPage">
+    <Position X="8.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\Pages\UI_MainPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_NewsPage">
+    <Position X="6.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAACAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\Pages\UI_NewsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_AssetsPage">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAIAAAIAAAAAAAAAAAAAAIAAAAAACACEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\Pages\UI_AssetsPage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_RealEstateSection">
+    <Position X="5.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\Sections\UI_RealEstateSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_DealershipSection">
+    <Position X="7.5" Y="5.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\Sections\UI_DealershipSection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="UI_Page_GameEvents" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAIAAAAAAAAAAAAAAAAAAAIAAAAAAAACEA=</HashCode>
+      <FileName>Assets\InvestorSim\Code\Scripts\UI\Pages\UI_Page_GameEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
